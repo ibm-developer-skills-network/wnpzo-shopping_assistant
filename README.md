@@ -1,5 +1,5 @@
 ## "Build an AI Shopping Assistant"
-This repo is part of the Guided Project [Build an AI Shopping Assistant for Black Friday](https://catalog.skills.network/catalog_item/5930) published on [CognitiveClass.ai](https://cognitiveclass.ai/). 
+This repo is part of the Guided Project [Build an AI Shopping Assistant](https://catalog.skills.network/catalog_item/5930) published on [CognitiveClass.ai](https://cognitiveclass.ai/). 
 
 **Estimated time needed:** 40 minutes
 
@@ -7,7 +7,7 @@ In today’s world of AI and automation, user expectations for intelligent appli
 
 Whether you are on the hunt for some Black Friday deals or you are searching for gift ideas for your loved ones on a special occasion you can leverage generative AI to optimize your search and make the best choices.
 
-This guided project will take you through the process of building a web application that helps users find the best deals online. Combining Flask, SerpAPI, and Granite `granite-3-8b-instruct` model hosted on IBM's watsonx, you’ll develop a sleek, AI-powered tool that refines user queries, fetches shopping results, compares products, and highlights deals—all in real-time.
+This guided project will take you through the process of building a web application that helps users find the best deals online. Combining Flask, SerpAPI, and Llama 3-1-70b-instruct model hosted on IBM's watsonx, you’ll develop a sleek, AI-powered tool that refines user queries, fetches shopping results, compares products, and highlights deals—all in real-time.
 
 By the end of this project you have created a web application that looks like this and uses generative AI to optimize and structure searching for your desired products online. 
 
@@ -24,7 +24,7 @@ Over the course of this project, you will:
 
 - **Work with search engine APIs**: Explore the integration of SerpAPI to retrieve real-time product data, such as prices, ratings, and reviews, for building practical applications.
 
-- **Understand query refinement, generate structured outputs and search summarization with LLMs**: Learn how to use IBM Watsonx.ai's Granite model to transform general user inputs into precise search queries.
+- **Understand query refinement, generate structured outputs and search summarization with LLMs**: Learn how to use IBM Watsonx.ai's Llama 3.1 model to transform general user inputs into precise search queries.
 
 - **Develop a Flask web application**: Build a functional and straightforward web application that combines Flask, APIs, and LLMs to create a user-friendly shopping assistant.
 
