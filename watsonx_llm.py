@@ -88,7 +88,7 @@ def refine_query(user_input, location):
     })
     return response  # Directly return the parsed response
 
-# The rest of the code remains the same
+# Leveraging LLM to analyze product data and generate a detailed summary in valid HTML format
 def llm_generate_summary(comparison_df_llm):
     """
     Use the LLM to generate a detailed summary in HTML format from a product comparison table.
@@ -150,7 +150,7 @@ def llm_generate_summary(comparison_df_llm):
         print(f"Error generating summary: {e}")
         return "<h3>Summary Unavailable</h3><p>An error occurred while generating the summary. Please try again later.</p>"
 
-# Update the `generate_comparison_table` function to use the new summary generation method
+# The `generate_comparison_table` function to return the comparison products table as HTML and a detailed summary
 def generate_comparison_table(products, featured_results=None, nearby_results=None):
     """
     Generate a comparison table for products and use the LLM to create a detailed summary.
