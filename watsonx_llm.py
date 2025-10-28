@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 import pandas as pd
 
 # Llama Model Configuration
-MODEL_ID = "meta-llama/llama-3-1-70b-instruct"
+MODEL_ID = "meta-llama/llama-3-3-70b-instruct"
 WATSONX_URL = "https://us-south.ml.cloud.ibm.com"
 PROJECT_ID = "skills-network"
 
